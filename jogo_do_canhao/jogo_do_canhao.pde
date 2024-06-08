@@ -19,7 +19,7 @@ void draw() {
     background(#D3D3D3); 
     
     if (ended) {
-      drawText("O jogo acabou!", width / 2, height / 2, true);
+      drawText("Você perdeu!", width / 2, height / 2, true);
       drawText("Sua pontuação: " + SCORE, width / 2, (height + 40) / 2, true);
       drawText("Aperte em alguma tecla para reiniciar.", width / 2, (height + 75) / 2, true);
       return; 
